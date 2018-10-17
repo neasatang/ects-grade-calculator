@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>ECTs Grade Calculator</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+</head>
+
+<body>
+
+<input type="text" id="ects" value="Enter ECTs credit" onfocus="if(this.value=='Enter ECTs credit') this.value='';">
+
+<button id="trigger">Ok</button>
+
+<p id="ECTs"></p>
+<p id="abbrevs"></p>
+<tr>
+  <td> <input type="hidden" id="btn" name="btn" value="Add more modules"> </td>
+  <td> <input type="hidden" id="btn2" name="btn" value="Done">
+</tr>
+<table id = "table">
+<tr>
+  <td><p id="header1"></p></td>
+    <td><p id="header2"></p></td>
+      <td><p id="header3"></p></td>
+        <td><p id="header4"></p></td>
+</tr>
+</table>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+
+</html>
